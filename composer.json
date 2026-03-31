@@ -1,0 +1,27 @@
+{
+    "name": "kejubayer/kej-stock-market",
+    "description": "Laravel package to fetch DSE and CSE live stock market data as arrays",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Kejubayer",
+            "email": "youremail@example.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kejubayer\\StockMarket\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^8.0|^9.0|^10.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Kejubayer\\StockMarket\\KejStockMarketServiceProvider"
+            ]
+        }
+    }
+}
