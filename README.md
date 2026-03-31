@@ -25,19 +25,15 @@ composer require kejubayer/kej-stock-market
 
 ## **If you want to register manually:**
 ```php
-<?php
 // config/app.php
 'providers' => [
     Kejubayer\StockMarket\KejStockMarketServiceProvider::class,
 ];
-?>
 ```
 
 
 ## **Usage**
 ```php
-<?php
-
 use Kejubayer\StockMarket\Services\DseService;
 use Kejubayer\StockMarket\Services\CseService;
 
@@ -52,13 +48,11 @@ $cseData = $cseService->getLatest();
 // Example output
 print_r($dseData);
 print_r($cseData);
-?>
 ```
 
 
 ## **Sample Output:**
 ```php
-<?php
 Array
 (
     [0] => Array
@@ -75,7 +69,6 @@ Array
             [volume] => 1000
         )
 )
-?>
 ```
 
 
