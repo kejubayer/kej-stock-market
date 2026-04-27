@@ -2,10 +2,12 @@
     "name": "kejubayer/kej-stock-market",
     "description": "Laravel package to fetch DSE and CSE live stock market data as arrays",
     "type": "library",
+    "license": "MIT",
+    "keywords": ["laravel", "stock market", "DSE", "CSE", "bangladesh", "finance"],
     "authors": [
         {
             "name": "Kejubayer",
-            "email": "youremail@example.com"
+            "email": "khondokereftakharjubayer@gmail.com"
         }
     ],
     "autoload": {
@@ -23,5 +25,7 @@
                 "Kejubayer\\StockMarket\\KejStockMarketServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
 }
